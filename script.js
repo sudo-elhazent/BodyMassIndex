@@ -3,7 +3,7 @@ function bmi(beratBadan, tinggiBadan) {
 	console.log(rumus);
   if (rumus < 17.0){
 		return "Kurus, Kekurangan berat badan berat";
-	} else if (rumus >= "17.0" && rumus <= 18.4){
+	} else if (rumus >= 17.0 && rumus <= 18.4){
 		return "Kurus, Kekurangan berat badan ringan";
 	} else if (rumus >= 18.5 && rumus <= 27.0){
 		return  "Normal";
