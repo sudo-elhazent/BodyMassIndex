@@ -1,6 +1,7 @@
-function bmi(beratTubuh, tinggiTubuh) {
+function bomain(beratTubuh, tinggiTubuh) {
 	var rumus = beratTubuh/(tinggiTubuh/100*tinggiTubuh/100);
 	console.log(rumusnya);
+	
   if (rumusnya < 17.0){
 		return "Kurus, Kekurangan berat badan berat";
 	} else if (rumusnya >= 17.0 && rumusnya <= 18.4){
@@ -15,4 +16,4 @@ function bmi(beratTubuh, tinggiTubuh) {
 }
 	
 
-console.log(bmi(56,170));
+console.log(bomain(56,170));
